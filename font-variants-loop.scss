@@ -4,7 +4,7 @@
 $path: '../fonts';  //  path to font files
 $name: 'myfont';  //  font name
 $variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
-$number: 7;  //  number of font variants
+$number: length($variants);  //  number of font variants
 
 @for $i from 1 through $number {
     @font-face {
