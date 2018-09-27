@@ -21,6 +21,7 @@ $path: '../fonts';  //  path to font files
 Loops through the your font variants and generates the declarations. Your font files will have to be named accordingly.
 
 ```scss
+
 $path: '../fonts';  //  path to font files
 $name: 'myfont';  //  base font name
 $variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
@@ -37,4 +38,5 @@ $number: length($variants);  //  number of font variants
            url('#{$path}/#{$name}-#{nth($variants, $i)}.svg#svgFontName') format('svg'); // Legacy iOS
     }
 }
+
 ```
