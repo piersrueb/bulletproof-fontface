@@ -16,7 +16,7 @@ $path: '../fonts';  //  path to font files
 }
 ```
 
-### SASS font variants generator loop
+### SASS font variants loop
 
 Loops through the your font variants and generates the declarations. Your font files will have to be named accordingly.
 
