@@ -41,4 +41,4 @@ $number: length($variants);  //  number of font variants
 
 ```
 
-You can generate the font files necessary (here)[https://transfonter.org/].
+You can generate the font files necessary [here](https://transfonter.org/).
