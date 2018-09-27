@@ -20,7 +20,7 @@ $path: '../fonts';  //  path to font files
 
 Loops through the your font variants and generates the declarations.
 
-Your font files will have to be named accordingly. In this case ```myfont-ultra-light```, ```myfont-regular``` and so on.
+Adjust the ```path``` ```name``` and ```variants``` variables to suit your needs. Your font files will have to be named accordingly. In this case ```myfont-ultra-light```, ```myfont-regular``` and so on.
 
 ```scss
 
