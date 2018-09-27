@@ -22,7 +22,7 @@ Loops through the your font variants and generates the declarations. Your font f
 
 ```scss
 $path: '../fonts';  //  path to font files
-$name: 'myfont';  //  font name
+$name: 'myfont';  //  base font name
 $variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
 $number: length($variants);  //  number of font variants
 
