@@ -1,0 +1,19 @@
+//  fonts
+//  Bullet proof font face
+
+$path: '../fonts';  //  path to font files
+$name: 'myfont';  //  font name
+$variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
+$number: 7;  //  number of font variants
+
+@for $i from 1 through $number {
+    @font-face {
+      font-family: '#{$name}-#{nth($variants, $i)}';
+      src: url('#{$path}/#{$name}-#{nth($variants, $i)}.eot'); //  IE9 Compat Modes
+      src: url('#{$path}/#{$name}-#{nth($variants, $i)}.eot?#iefix') format('embedded-opentype'), //  IE6-IE8
+           url('#{$path}/#{$name}-#{nth($variants, $i)}.woff2') format('woff2'), //  Super Modern Browsers
+           url('#{$path}/#{$name}-#{nth($variants, $i)}.woff') format('woff'), // Pretty Modern Browsers
+           url('#{$path}/#{$name}-#{nth($variants, $i)}.ttf')  format('truetype'), // Safari, Android, iOS
+           url('#{$path}/#{$name}-#{nth($variants, $i)}.svg#svgFontName') format('svg'); // Legacy iOS
+    }
+}
