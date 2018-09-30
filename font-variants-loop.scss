@@ -1,12 +1,12 @@
-//  fonts
-//  Bullet proof font face
+/*  Bulletproof @fontface  */
+//  Author Piers Rueb
+//  https://github.com/piersrueb/bulletproof-fontface
 
 $path: '../fonts';  //  path to font files
 $name: 'myfont';  //  font name
-$variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
-$number: length($variants);  //  number of font variants
+$variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variants
 
-@for $i from 1 through $number {
+@for $i from 1 through length($variants) {
     @font-face {
       font-family: '#{$name}-#{nth($variants, $i)}';
       src: url('#{$path}/#{$name}-#{nth($variants, $i)}.eot'); //  IE9 Compat Modes
