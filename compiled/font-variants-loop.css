@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "myfont-ultra-light";
+  src: url("../fonts/myfont-ultra-light.eot");
+  src: url("../fonts/myfont-ultra-light.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-ultra-light.woff2") format("woff2"), url("../fonts/myfont-ultra-light.woff") format("woff"), url("../fonts/myfont-ultra-light.ttf") format("truetype"), url("../fonts/myfont-ultra-light.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: "myfont-light";
+  src: url("../fonts/myfont-light.eot");
+  src: url("../fonts/myfont-light.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-light.woff2") format("woff2"), url("../fonts/myfont-light.woff") format("woff"), url("../fonts/myfont-light.ttf") format("truetype"), url("../fonts/myfont-light.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: "myfont-regular";
+  src: url("../fonts/myfont-regular.eot");
+  src: url("../fonts/myfont-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-regular.woff2") format("woff2"), url("../fonts/myfont-regular.woff") format("woff"), url("../fonts/myfont-regular.ttf") format("truetype"), url("../fonts/myfont-regular.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: "myfont-medium";
+  src: url("../fonts/myfont-medium.eot");
+  src: url("../fonts/myfont-medium.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-medium.woff2") format("woff2"), url("../fonts/myfont-medium.woff") format("woff"), url("../fonts/myfont-medium.ttf") format("truetype"), url("../fonts/myfont-medium.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: "myfont-bold";
+  src: url("../fonts/myfont-bold.eot");
+  src: url("../fonts/myfont-bold.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-bold.woff2") format("woff2"), url("../fonts/myfont-bold.woff") format("woff"), url("../fonts/myfont-bold.ttf") format("truetype"), url("../fonts/myfont-bold.svg#svgFontName") format("svg"); }
+
+@font-face {
+  font-family: "myfont-extra-bold black";
+  src: url("../fonts/myfont-extra-bold black.eot");
+  src: url("../fonts/myfont-extra-bold black.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-extra-bold black.woff2") format("woff2"), url("../fonts/myfont-extra-bold black.woff") format("woff"), url("../fonts/myfont-extra-bold black.ttf") format("truetype"), url("../fonts/myfont-extra-bold black.svg#svgFontName") format("svg"); }
+
+/*# sourceMappingURL=sourcemaps/font-variants-loop.css.map */

@@ -37,6 +37,13 @@ ehthumbs.db
 Thumbs.db
 
 # Directories #
-######################
+###############
 node_modules/
 design/
+sourcemaps/
+
+# files #
+#########
+package-lock.json
+package.json
+gulpfile.js

@@ -1,0 +1,6 @@
+@font-face {
+  font-family: 'My Font';
+  src: url("../fonts/myfont.eot");
+  src: url("../fonts/myfont.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont.woff2") format("woff2"), url("../fonts/myfont.woff") format("woff"), url("../fonts/myfont.ttf") format("truetype"), url("../fonts/myfont.svg#svgFontName") format("svg"); }
+
+/*# sourceMappingURL=sourcemaps/bulletproof-fontface.css.map */
