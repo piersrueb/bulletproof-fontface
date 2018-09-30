@@ -27,5 +27,3 @@
   font-family: "myfont-extra-bold black";
   src: url("../fonts/myfont-extra-bold black.eot");
   src: url("../fonts/myfont-extra-bold black.eot?#iefix") format("embedded-opentype"), url("../fonts/myfont-extra-bold black.woff2") format("woff2"), url("../fonts/myfont-extra-bold black.woff") format("woff"), url("../fonts/myfont-extra-bold black.ttf") format("truetype"), url("../fonts/myfont-extra-bold black.svg#svgFontName") format("svg"); }
-
-/*# sourceMappingURL=sourcemaps/font-variants-loop.css.map */
