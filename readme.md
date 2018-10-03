@@ -23,11 +23,10 @@ Loops through the your font variants and generates the declarations. Adjust the 
 ```scss
 
 $path: '../fonts';  //  path to font files
-$name: 'myfont';  //  base font name
-$variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variant
-$number: length($variants);  //  number of font variants
+$name: 'myfont';  //  font name
+$variants: 'ultra-light', 'light', 'regular', 'medium', 'bold', 'extra-bold' 'black';  //  font variants
 
-@for $i from 1 through $number {
+@for $i from 1 through length($variants) {
     @font-face {
       font-family: '#{$name}-#{nth($variants, $i)}';
       src: url('#{$path}/#{$name}-#{nth($variants, $i)}.eot'); //  IE9 Compat Modes
