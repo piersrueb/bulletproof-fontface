@@ -1,6 +1,6 @@
-## Bulletproof Fontface CSS
+## Bulletproof Fontface SCSS
 
-This method has the deepest support possible. The font-face rule should be added to the stylesheet before any styles.
+This method has the deepest support possible. The font-face rule should be added to the stylesheet before any styles. Compiled versions of the two SCSS methods can be found within the Compiled directory.
 
 ```scss
 $path: '../fonts';  //  path to font files
